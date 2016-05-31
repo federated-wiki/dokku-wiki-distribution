@@ -1,0 +1,1 @@
+FROM federatedwiki/graph:latest
