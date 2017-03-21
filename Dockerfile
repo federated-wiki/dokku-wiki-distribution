@@ -1,5 +1,4 @@
 FROM federatedwiki/distribution:0.10.3
+RUN apk add --update bash git && rm -rf /var/cache/apk/*
 EXPOSE 5000
-RUN apk add --update bash && rm -rf /var/cache/apk/*
 CMD ["wiki", "-p", "5000"]
-
