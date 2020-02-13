@@ -1,1 +1,2 @@
-FROM federatedwiki/distribution:0.20.0
+FROM federatedwiki/distribution:0.21.0
+
